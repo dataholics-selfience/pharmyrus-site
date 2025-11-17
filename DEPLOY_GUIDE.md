@@ -51,11 +51,15 @@ git push -u origin main
 4. Escolha **"Deploy with GitHub"**
 5. Autorize o Netlify a acessar seus repositórios
 6. Selecione o repositório **pharmyrus-site**
-7. As configurações já estão no `netlify.toml`, então apenas:
+7. **CONFIGURAÇÃO IMPORTANTE:**
    - Branch to deploy: **main**
+   - Build command: **(deixe em branco)**
+   - Publish directory: `.` **(apenas um ponto)** ou deixe em branco
    - Clique em **"Deploy site"**
 
 ✅ Pronto! Seu site estará no ar em alguns segundos!
+
+⚠️ **ATENÇÃO:** Se aparecer erro de "dist directory", veja o arquivo NETLIFY_CONFIG.md
 
 ---
 

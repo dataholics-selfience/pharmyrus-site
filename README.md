@@ -19,12 +19,18 @@ git push -u origin main
 2. Acesse [Netlify](https://app.netlify.com)
 3. Clique em "Add new site" → "Import an existing project"
 4. Conecte com GitHub e selecione o repositório
-5. As configurações já estão no `netlify.toml`, basta clicar em "Deploy"
+5. **IMPORTANTE**: Configure assim:
+   - Branch to deploy: `main`
+   - Build command: **(deixe em branco)**
+   - Publish directory: `.` **(apenas um ponto)** ou deixe em branco
+6. Clique em "Deploy"
 
-### Opção 2: Deploy Manual via Netlify Drop
+⚠️ **Veja o arquivo NETLIFY_CONFIG.md para instruções detalhadas**
+
+### Opção 2: Deploy Manual via Netlify Drop (MAIS FÁCIL)
 
 1. Acesse [Netlify Drop](https://app.netlify.com/drop)
-2. Arraste a pasta do projeto (ou o arquivo .zip)
+2. Arraste TODOS os arquivos da pasta (index.html, css, js, imagens, _redirects)
 3. O site será publicado automaticamente
 
 ## 📁 Estrutura do Projeto
